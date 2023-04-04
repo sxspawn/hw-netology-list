@@ -8,11 +8,10 @@ public class Main {
         while (true) {
             System.out.println("Выберите операцию: \n1 - добавить, 2 - показать, 3 - удалить, 4 - найти, 5 - завершить.");
             String input = scanner.nextLine();
-            if ("5".equals(input)){
+            if ("5".equals(input)) {
                 System.out.println("Программа завершена!");
                 break;
             }
-//            scanner.nextLine();
             switch (input) {
                 case "1":
                     System.out.println("Введите название покупки:");
